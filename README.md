@@ -9,3 +9,4 @@
 - ImageCache图片缓存
 - RecyclerView + CardView实现列表
 - 整个页面框架由FragmentTabHost + Fragment实现
+- 部分页面采用RxJava实现网络请求和异常处理
