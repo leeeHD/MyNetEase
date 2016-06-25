@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/item_back_selector"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:text="新闻标题"/>
+
+        <TextView
+            android:id="@+id/news_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:layout_alignBottom="@+id/img"
+            android:layout_marginLeft="10dp"
+
+            android:textColor="#979797"
+            android:text="来源"/>
+
+        <TextView
+            android:id="@+id/special_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/img"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/red_text"
+            android:text="专题"
+            android:background="@drawable/gray_back"
+            android:padding="1dp"
+            android:textSize="10sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/img"
+            android:layout_marginRight="10dp"
+
+            android:text=""
+            android:textColor="#979797"
+
+            android:textSize="12sp"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"/>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.it520.activity.main.wight.SmartTabLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewpagerTab"
+    android:background="@color/red_text"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    app:stl_customTabTextLayoutId="@layout/read_item_tab"
+    app:stl_customTabTextViewId="@+id/custom_texts"
+    app:stl_indicatorColor="@color/white"
+    app:stl_indicatorInterpolation="linear"
+    app:stl_indicatorThickness="3dp"
+    app:stl_underlineThickness="1dp"
+    />

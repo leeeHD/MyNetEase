@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="titles">
+        <item>新闻</item>
+        <item>阅读</item>
+        <item>视频</item>
+        <item>话题</item>
+        <item>我</item>
+    </array>
+
+    <array name="news_titles">
+        <item>头条</item>
+        <item>娱乐</item>
+        <item>热点</item>
+        <item>体育</item>
+        <item>本地</item>
+        <item>网易号</item>
+        <item>北京</item>
+        <item>财经</item>
+        <item>科技</item>
+        <item>汽车</item>
+        <item>美女</item>
+        <item>手机</item>
+    </array>
+    <array name="video_titles">
+        <item>八卦</item>
+        <item>二次元</item>
+    </array>
+    <array name="topic_titles">
+        <item>话题</item>
+        <item>问吧</item>
+        <item>关注</item>
+    </array>
+
+    <!--阅读-->
+    <array name="read_titles">
+        <item>推荐阅读</item>
+        <item>我的订阅</item>
+    </array>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:background="#1B1B1B"
+                  android:padding="2dp"
+                  android:id="@+id/videoControllerLayout"
+                  android:gravity="center"
+                  android:layout_gravity="bottom">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:gravity="center"
+                      android:id="@+id/videoPauseBtn"
+                      android:paddingRight="10dip"
+                      android:paddingLeft="10dp">
+            <FrameLayout
+                android:layout_width="22dp"
+                android:layout_height="22dp">
+            <ImageView android:layout_width="22dp"
+                       android:layout_height="22dp"
+                       android:clickable="true"
+                       android:layout_gravity="center"
+                       android:src="@drawable/biz_audio_btn_pause"
+                       android:id="@+id/videoPauseImg" />
+            <ImageView android:layout_width="22dp"
+                       android:layout_height="22dp"
+                       android:layout_gravity="center"
+                       android:clickable="true"
+                       android:src="@drawable/biz_audio_btn_play"
+                       android:id="@+id/videoPlayImg"
+                android:visibility="invisible"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      android:paddingRight="0dip">
+
+            <SeekBar android:layout_width="match_parent"
+                     android:id="@+id/videoSeekBar"
+                     android:layout_weight="1"
+                     style="@android:style/Widget.Holo.SeekBar"
+                     android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:gravity="center"
+                      android:text="00:00"
+                      android:textSize="12dp"
+                      android:id="@+id/videoCurTime"
+                      android:textColor="#FFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textColor="#FFF"
+                android:text="/"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:gravity="center"
+                      android:text="00:00"
+                      android:textSize="12dp"
+                      android:id="@+id/videoTotalTime"
+                      android:textColor="#FFF"
+                      android:layout_marginRight="10dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/screen_status_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/screen_status_img"
+                android:layout_width="38dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/full_screen"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eb413d</color>
+    <color name="colorPrimaryDark">#bc3431</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorTitle">#eb413d</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="red_text">#ee3f36</color>
+    <color name="light_gray">#f4dede</color>
+
+    <color name="item_back_normal">#f4dede</color>
+    <color name="line_color">#d8d8d8</color>
+    <color name="item_back_press">#d7d7d7</color>
+
+    <color name="read_back_press">#EB413D</color>
+    <color name="read_back">#000000</color>
+</resources>

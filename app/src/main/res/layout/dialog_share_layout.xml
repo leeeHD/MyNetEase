@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="400dp"
+              android:background="@color/white"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="分享领红包"
+            android:textColor="#EB413D"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/question_icon"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/sns_sina_dir_ll"
+            style="@style/share_item_container">
+
+            <ImageView
+                style="@style/share_item_image"
+                android:src="@drawable/sns_sina_icon"/>
+
+            <TextView
+                style="@style/share_item_text"
+                android:text="新浪微博"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sns_qzone_dir_ll"
+            style="@style/share_item_container">
+
+            <ImageView
+                style="@style/share_item_image"
+                android:src="@drawable/sns_qzone_icon"/>
+
+            <TextView
+                style="@style/share_item_text"
+                android:text="QQ好友"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sns_qqfriends_dir_ll"
+            style="@style/share_item_container">
+
+            <ImageView
+                style="@style/share_item_image"
+                android:src="@drawable/sns_qqfriends_icon"/>
+
+            <TextView
+                style="@style/share_item_text"
+                android:text="QQ朋友圈"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sns_yx_dir_ll"
+            style="@style/share_item_container">
+
+            <ImageView
+                style="@style/share_item_image"
+                android:src="@drawable/sns_yx_icon"/>
+
+            <TextView
+                style="@style/share_item_text"
+                android:text="易信"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/sns_yx_friend_dir_ll"
+            style="@style/share_item_container">
+
+            <ImageView
+                style="@style/share_item_image"
+                android:src="@drawable/sns_yx_frend_icon"/>
+
+            <TextView
+                style="@style/share_item_text"
+                android:text="易信朋友圈"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sns_email_dir_ll"
+            style="@style/share_item_container">
+
+            <ImageView
+                style="@style/share_item_image"
+                android:src="@drawable/sns_email_icon"/>
+
+            <TextView
+                style="@style/share_item_text"
+                android:text="邮箱"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sns_linked_in_dir_ll"
+            style="@style/share_item_container">
+
+            <ImageView
+                style="@style/share_item_image"
+                android:src="@drawable/sns_lofter_icon"/>
+
+            <TextView
+                style="@style/share_item_text"
+                android:text="领英"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sns_ydy_dir_ll"
+            style="@style/share_item_container">
+
+            <ImageView
+                style="@style/share_item_image"
+                android:src="@drawable/sns_ydnote_icon"/>
+
+            <TextView
+                style="@style/share_item_text"
+                android:text="有道云笔记"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:id="@+id/sns_more_dir_ll"
+            style="@style/share_item_container">
+
+            <ImageView
+                style="@style/share_item_image"
+                android:src="@drawable/sns_more_icon"/>
+
+            <TextView
+                style="@style/share_item_text"
+                android:text="更多"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/city_vp_iv"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"/>
+
+    <TextView
+        android:id="@+id/city_vp_title"
+        android:text="TITLE"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:layout_alignBottom="@+id/city_vp_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

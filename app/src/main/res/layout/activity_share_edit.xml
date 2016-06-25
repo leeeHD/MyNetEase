@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical"
+    tools:context="com.it520.activity.share.ShareEditActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#EB413D">
+
+        <com.it520.activity.yxxbase.ui.ClickImageView
+            android:id="@+id/share_send_exit_iv"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:src="@drawable/exit_icon"/>
+
+
+        <com.it520.activity.yxxbase.ui.ClickImageView
+            android:id="@+id/share_send_sure_iv"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:padding="4dp"
+            android:src="@drawable/share_send_selector"/>
+
+        <TextView
+            android:id="@+id/share_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/share_send_sure_iv"
+            android:layout_toRightOf="@id/share_send_exit_iv"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shoad_line_shape_sg_ew"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+        <EditText
+            android:id="@+id/share_edit_text_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_area_bg"
+            android:gravity="left|top"
+            android:hint="请输入您对此新闻的宝贵评价"
+            android:lines="5"
+            android:padding="10dp"
+            android:textColor="#393939"
+            android:textColorHint="#818181"
+            android:textSize="16sp"/>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/share_edit_limit_length_tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical|right"
+        android:paddingRight="20dp"
+        android:textColor="#262e9e"
+        android:textSize="16sp"/>
+</LinearLayout>
